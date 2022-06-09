@@ -1,0 +1,26 @@
+* {
+    //border: solid 1px red;
+}
+
+.navbar {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    margin: 0% 0%;
+    padding: 1% 2%;
+}
+
+.logo {
+    display: flex;
+    gap: 5%;
+}
+
+.logo>img {
+    width: 80px;
+    height: auto;
+}
+
+.navbar>:nth-child(1) {
+    margin-right: auto;
+}
