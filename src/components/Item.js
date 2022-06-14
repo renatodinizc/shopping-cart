@@ -32,7 +32,7 @@ function Item({src, id, alt, title, pricing, description, getItemToCart}) {
         <div className='item'>
             <img src={src} alt={alt} />
             <h2>{title}</h2>
-            <p>{pricing}</p>
+            <p>${pricing}</p>
             <h5>{description}</h5>
             <form onSubmit={handleSubmission}>
                 <button type='button' onClick={() => setCount(count - 1)}>-</button>

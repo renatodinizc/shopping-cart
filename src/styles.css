@@ -36,11 +36,14 @@
     margin-left: auto;
     display: flex;
     flex-direction: column;
-    border: solid 1px red;
     width: 30%;
+    border: solid 1px black;
+    background-color: rgb(223, 213, 213);
+    padding: 1%;
+
 }
 
-.cart>button {
+.cart>button, .cart>h3 {
     margin-left: auto;
 }
 
